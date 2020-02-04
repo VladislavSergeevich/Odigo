@@ -509,7 +509,7 @@ textarea {
 }
 
 
-/* */
+/* Start */
 html {
     box-sizing: border-box;
 }
@@ -533,8 +533,10 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+/* End */
 
 /* Header styles start */
+
 
 .header {
     position: fixed;
@@ -576,13 +578,10 @@ body {
 .header-link:active {
     opacity: .75;
 }
-
 /* Header styles end */
 
 
-
 /* Intro styles start */
-
 .intro {
     min-height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
@@ -647,14 +646,10 @@ body {
 .search-form-submit:active {
     background: #0e66dd;
 }
-
-
 /* Intro styles end */
 
 
 /* Benefits styles start */
-
-
 .benefits-wrap {
     max-width: 1260px;
     background-color: white;
@@ -678,15 +673,7 @@ body {
 
 .benefits-cards {
     display: grid;
-    grid-template-columns: repear(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
     padding: 0 100px;
 }
-
-
-
-
-
-
-
-
